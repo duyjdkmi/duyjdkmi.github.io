@@ -1,0 +1,1435 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>影视大全在线免费观看_官方品牌门户 - 高清正版内容生态平台</title>
+<meta name="description" content="影视大全在线免费观看官方网站，专注影视内容的品牌门户，汇集原创剧集、纪录影像与创作者社区，提供高清正版观看与深度内容生态，持续运营值得信赖。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310161e'/%3E%3Cpath d='M24 18 L48 32 L24 46 Z' fill='%23ff5b4d'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ys-bg:#0e1116;
+  --ys-bg-soft:#141922;
+  --ys-card:#181e29;
+  --ys-card-2:#1e2532;
+  --ys-line:#2a3342;
+  --ys-text:#e9edf4;
+  --ys-muted:#9aa6b8;
+  --ys-dim:#6d7a8d;
+  --ys-accent:#ff5b4d;
+  --ys-accent-soft:rgba(255,91,77,.14);
+  --ys-cyan:#3fd0c9;
+  --ys-cyan-soft:rgba(63,208,201,.13);
+  --ys-amber:#ffc247;
+  --ys-radius:16px;
+  --ys-radius-sm:10px;
+  --ys-sticky-offset:104px;
+  --ys-shadow:0 18px 40px -22px rgba(0,0,0,.85);
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  background:
+    radial-gradient(1200px 520px at 82% -8%,rgba(255,91,77,.16),transparent 60%),
+    radial-gradient(900px 460px at 4% 4%,rgba(63,208,201,.10),transparent 58%),
+    var(--ys-bg);
+  color:var(--ys-text);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Segoe UI",system-ui,-apple-system,sans-serif;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;}
+h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:700;letter-spacing:.2px;}
+p{margin:0 0 12px;}
+ul,ol{margin:0;padding-left:1.15em;}
+:target{scroll-margin-top:var(--ys-sticky-offset);}
+[ID]{scroll-margin-top:var(--ys-sticky-offset);}
+
+.ys-skip{position:absolute;left:-9999px;top:0;}
+.ys-skip:focus{left:12px;top:12px;z-index:999;background:var(--ys-accent);color:#fff;padding:8px 14px;border-radius:8px;}
+
+/* ===== Sticky bar (announcement + header) ===== */
+.ys-sticky-stack{position:sticky;top:0;z-index:120;}
+
+.ys-announce{
+  background:linear-gradient(90deg,#2a1418,#1b1219 45%,#102022);
+  border-bottom:1px solid rgba(255,91,77,.28);
+  font-size:13px;
+}
+.ys-announce-inner{
+  max-width:1240px;margin:0 auto;padding:8px 20px;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+}
+.ys-announce-tag{
+  flex:0 0 auto;background:var(--ys-accent);color:#fff;font-size:11px;font-weight:700;
+  padding:2px 8px;border-radius:999px;letter-spacing:.6px;
+}
+.ys-announce-text{color:#f0d9d6;flex:1 1 320px;min-width:0;}
+.ys-announce-text strong{color:#fff;}
+.ys-announce-link{
+  flex:0 0 auto;color:var(--ys-cyan);font-weight:600;border-bottom:1px dashed rgba(63,208,201,.5);
+  font-size:12.5px;
+}
+
+.ys-header{
+  background:rgba(14,17,22,.94);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--ys-line);
+}
+.ys-header-inner{
+  max-width:1240px;margin:0 auto;padding:12px 20px;
+  display:flex;align-items:center;gap:18px;
+}
+.ys-brand{display:flex;align-items:center;gap:10px;flex:0 0 auto;}
+.ys-brand-mark{
+  width:38px;height:38px;border-radius:11px;
+  background:linear-gradient(145deg,#ff5b4d,#b8342b);
+  display:grid;place-items:center;box-shadow:0 8px 18px -8px rgba(255,91,77,.9);
+}
+.ys-brand-mark svg{width:18px;height:18px;}
+.ys-brand-name{font-size:17px;font-weight:800;letter-spacing:1px;}
+.ys-brand-sub{display:block;font-size:10.5px;color:var(--ys-dim);letter-spacing:2.2px;font-weight:600;}
+
+.ys-nav{flex:1 1 auto;display:flex;justify-content:center;}
+.ys-nav-list{display:flex;gap:4px;list-style:none;margin:0;padding:0;flex-wrap:wrap;}
+.ys-nav-link{
+  display:inline-block;padding:7px 12px;border-radius:9px;font-size:14px;color:var(--ys-muted);
+  transition:background .18s ease,color .18s ease;
+}
+.ys-nav-link:hover,.ys-nav-link:focus-visible{background:var(--ys-card-2);color:#fff;}
+
+.ys-head-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto;}
+.ys-search{position:relative;display:flex;align-items:center;}
+.ys-search-input{
+  width:190px;background:var(--ys-card);border:1px solid var(--ys-line);color:var(--ys-text);
+  padding:8px 12px 8px 32px;border-radius:999px;font-size:13.5px;outline:none;
+  transition:border-color .18s,box-shadow .18s,width .2s;
+}
+.ys-search-input::placeholder{color:var(--ys-dim);}
+.ys-search-input:focus{border-color:var(--ys-accent);box-shadow:0 0 0 3px var(--ys-accent-soft);width:220px;}
+.ys-search-icon{position:absolute;left:11px;width:14px;height:14px;color:var(--ys-dim);pointer-events:none;}
+.ys-search-hint{
+  position:absolute;left:0;right:0;top:calc(100% + 8px);background:var(--ys-card-2);
+  border:1px solid var(--ys-line);border-radius:12px;padding:8px;font-size:13px;color:var(--ys-muted);
+  box-shadow:var(--ys-shadow);display:none;
+}
+.ys-search-hint.ys-is-open{display:block;}
+.ys-search-hint b{color:var(--ys-cyan);}
+.ys-btn{
+  border:1px solid var(--ys-line);background:var(--ys-card);color:var(--ys-text);
+  padding:8px 15px;border-radius:999px;font-size:13.5px;font-weight:600;cursor:pointer;
+  transition:transform .16s ease,background .18s,border-color .18s,color .18s;
+  display:inline-flex;align-items:center;gap:7px;
+}
+.ys-btn:hover{background:var(--ys-card-2);border-color:#3a475a;transform:translateY(-1px);}
+.ys-btn:active{transform:translateY(0);}
+.ys-btn--primary{background:linear-gradient(135deg,#ff5b4d,#e03b2d);border-color:transparent;color:#fff;box-shadow:0 12px 24px -14px rgba(255,91,77,.95);}
+.ys-btn--primary:hover{background:linear-gradient(135deg,#ff7466,#ef4636);border-color:transparent;}
+.ys-btn--ghost{background:transparent;}
+.ys-btn--cyan{background:var(--ys-cyan-soft);border-color:rgba(63,208,201,.4);color:var(--ys-cyan);}
+.ys-btn--cyan:hover{background:rgba(63,208,201,.22);border-color:rgba(63,208,201,.65);}
+.ys-btn--sm{padding:5px 11px;font-size:12.5px;border-radius:8px;}
+
+.ys-burger{
+  display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--ys-line);
+  background:var(--ys-card);color:var(--ys-text);cursor:pointer;place-items:center;
+}
+.ys-burger span{display:block;width:17px;height:2px;background:currentColor;margin:2.5px auto;border-radius:2px;}
+
+.ys-mobile-nav{display:none;border-top:1px solid var(--ys-line);background:var(--ys-bg-soft);}
+.ys-mobile-nav.ys-is-open{display:block;}
+.ys-mobile-nav ul{list-style:none;margin:0;padding:8px 20px 16px;display:grid;gap:2px;}
+.ys-mobile-nav a{display:block;padding:10px 8px;border-radius:8px;color:var(--ys-muted);font-size:14.5px;}
+.ys-mobile-nav a:hover{background:var(--ys-card);color:#fff;}
+
+/* ===== Layout primitives ===== */
+.ys-wrap{max-width:1240px;margin:0 auto;padding:0 20px;}
+.ys-section{padding:56px 0 8px;}
+.ys-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:24px;}
+.ys-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:2.4px;
+  color:var(--ys-accent);font-weight:700;text-transform:uppercase;margin-bottom:8px;
+}
+.ys-eyebrow::before{content:"";width:22px;height:2px;background:var(--ys-accent);border-radius:2px;}
+.ys-h2{font-size:clamp(22px,2.6vw,30px);}
+.ys-h2 em{font-style:normal;color:var(--ys-cyan);}
+.ys-section-desc{color:var(--ys-muted);font-size:14px;max-width:640px;margin:8px 0 0;}
+.ys-kw{color:var(--ys-amber);font-weight:700;}
+
+/* ===== Hero ===== */
+.ys-hero{padding:38px 0 10px;}
+.ys-hero-grid{
+  display:grid;gap:34px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;
+}
+.ys-hero-copy{min-width:0;}
+.ys-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;padding:5px 13px;border-radius:999px;
+  background:var(--ys-accent-soft);border:1px solid rgba(255,91,77,.35);
+  font-size:12.5px;color:#ffb0a8;font-weight:600;margin-bottom:16px;
+}
+.ys-hero-badge i{width:7px;height:7px;border-radius:50%;background:var(--ys-accent);display:inline-block;box-shadow:0 0 0 3px rgba(255,91,77,.25);}
+h1.ys-hero-title{
+  font-size:clamp(30px,4.4vw,52px);line-height:1.16;letter-spacing:-.5px;margin-bottom:14px;
+}
+h1.ys-hero-title span{
+  background:linear-gradient(100deg,#ff8b7f,#ff5b4d 45%,#3fd0c9);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.ys-hero-lead{color:var(--ys-muted);font-size:15.5px;margin-bottom:18px;}
+.ys-hero-intro{
+  border-left:2px solid rgba(63,208,201,.55);padding:2px 0 2px 15px;
+  color:#c5cedd;font-size:14.5px;margin-bottom:22px;
+}
+.ys-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px;}
+.ys-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;max-width:520px;}
+.ys-stat{
+  background:linear-gradient(160deg,var(--ys-card),var(--ys-bg-soft));
+  border:1px solid var(--ys-line);border-radius:var(--ys-radius-sm);padding:12px 14px;
+}
+.ys-stat-num{font-size:clamp(19px,2.2vw,24px);font-weight:800;color:#fff;letter-spacing:.4px;}
+.ys-stat-num b{color:var(--ys-cyan);font-weight:800;}
+.ys-stat-label{font-size:11.5px;color:var(--ys-dim);letter-spacing:.5px;margin-top:2px;}
+
+.ys-hero-visual{position:relative;min-width:0;}
+.ys-hero-figure{
+  position:relative;border-radius:22px;overflow:hidden;border:1px solid #2b3648;
+  box-shadow:0 40px 70px -40px rgba(0,0,0,.95);
+  background:#0b0e13;
+}
+.ys-hero-figure img{width:100%;height:auto;aspect-ratio:16/11;object-fit:cover;}
+.ys-hero-play{
+  position:absolute;left:18px;bottom:18px;display:flex;align-items:center;gap:10px;
+  background:rgba(10,13,18,.78);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.14);
+  padding:8px 14px 8px 8px;border-radius:999px;font-size:13px;color:#fff;font-weight:600;
+}
+.ys-hero-play .ys-play-dot{
+  width:32px;height:32px;border-radius:50%;background:var(--ys-accent);display:grid;place-items:center;flex:0 0 auto;
+  box-shadow:0 0 0 5px rgba(255,91,77,.22);
+}
+.ys-hero-play svg{width:11px;height:11px;}
+.ys-hero-float{
+  position:absolute;right:-6px;top:-14px;background:var(--ys-card-2);border:1px solid var(--ys-line);
+  border-radius:12px;padding:8px 13px;font-size:12.5px;color:var(--ys-cyan);font-weight:700;
+  box-shadow:var(--ys-shadow);
+}
+.ys-hero-caption{color:var(--ys-dim);font-size:12.5px;margin-top:10px;}
+
+/* ===== Focus grid (featured + list) ===== */
+.ys-focus-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:22px;align-items:start;}
+.ys-feature-card{
+  background:var(--ys-card);border:1px solid var(--ys-line);border-radius:var(--ys-radius);
+  overflow:hidden;transition:transform .22s ease,border-color .22s,box-shadow .22s;
+}
+.ys-feature-card:hover{transform:translateY(-4px);border-color:#3b4a60;box-shadow:var(--ys-shadow);}
+.ys-feature-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;}
+.ys-feature-body{padding:20px 22px 22px;}
+.ys-tagrow{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:10px;}
+.ys-tag{
+  font-size:11.5px;padding:2px 9px;border-radius:999px;background:var(--ys-card-2);
+  border:1px solid var(--ys-line);color:var(--ys-muted);font-weight:600;
+}
+.ys-tag--accent{background:var(--ys-accent-soft);border-color:rgba(255,91,77,.4);color:#ff9d93;}
+.ys-tag--cyan{background:var(--ys-cyan-soft);border-color:rgba(63,208,201,.4);color:var(--ys-cyan);}
+.ys-feature-title{font-size:20px;margin-bottom:8px;}
+.ys-feature-desc{color:var(--ys-muted);font-size:14px;}
+.ys-meta-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--ys-dim);margin-top:14px;}
+.ys-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;}
+.ys-act{
+  display:inline-flex;align-items:center;gap:6px;border:1px solid var(--ys-line);background:transparent;
+  color:var(--ys-muted);border-radius:9px;padding:6px 11px;font-size:12.5px;cursor:pointer;
+  transition:all .16s ease;
+}
+.ys-act:hover{border-color:#41506a;color:#fff;background:var(--ys-card-2);}
+.ys-act svg{width:14px;height:14px;}
+.ys-act.ys-is-liked{color:var(--ys-accent);border-color:rgba(255,91,77,.5);background:var(--ys-accent-soft);}
+.ys-act.ys-is-saved{color:var(--ys-amber);border-color:rgba(255,194,71,.5);background:rgba(255,194,71,.1);}
+
+.ys-list{display:grid;gap:12px;}
+.ys-list-item{
+  display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:start;
+  background:var(--ys-bg-soft);border:1px solid var(--ys-line);border-radius:var(--ys-radius-sm);
+  padding:14px 16px;transition:border-color .2s,background .2s,transform .2s;
+}
+.ys-list-item:hover{border-color:#3a4860;background:var(--ys-card);transform:translateX(3px);}
+.ys-list-title{font-size:15px;font-weight:700;margin-bottom:4px;}
+.ys-list-desc{font-size:13px;color:var(--ys-muted);margin-bottom:8px;}
+.ys-list-meta{font-size:12px;color:var(--ys-dim);display:flex;gap:12px;flex-wrap:wrap;}
+.ys-list-index{
+  font-size:13px;font-weight:800;color:var(--ys-dim);font-variant-numeric:tabular-nums;
+  padding-top:2px;min-width:26px;text-align:right;
+}
+
+/* ===== Video cards grid ===== */
+.ys-grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+.ys-grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
+.ys-vcard{
+  background:var(--ys-card);border:1px solid var(--ys-line);border-radius:var(--ys-radius);
+  overflow:hidden;display:flex;flex-direction:column;min-width:0;
+  transition:transform .22s ease,border-color .22s,box-shadow .22s;
+}
+.ys-vcard:hover{transform:translateY(-4px);border-color:#3b4a60;box-shadow:var(--ys-shadow);}
+.ys-vcard img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;}
+.ys-vcard-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1 1 auto;}
+.ys-vcard-title{font-size:15.5px;font-weight:700;}
+.ys-vcard-desc{font-size:13px;color:var(--ys-muted);flex:1 1 auto;}
+.ys-vcard-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:12px;color:var(--ys-dim);border-top:1px dashed var(--ys-line);padding-top:10px;margin-top:2px;}
+
+/* ===== Topics ===== */
+.ys-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;}
+.ys-topic{
+  background:linear-gradient(165deg,var(--ys-card),var(--ys-bg-soft));
+  border:1px solid var(--ys-line);border-radius:var(--ys-radius);padding:20px;
+  display:flex;flex-direction:column;gap:10px;min-width:0;
+  transition:border-color .2s,transform .2s;
+}
+.ys-topic:hover{border-color:#3b4a60;transform:translateY(-3px);}
+.ys-topic-head{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+.ys-topic-title{font-size:16.5px;font-weight:800;}
+.ys-status{font-size:11px;padding:2px 9px;border-radius:999px;background:var(--ys-cyan-soft);color:var(--ys-cyan);border:1px solid rgba(63,208,201,.35);white-space:nowrap;}
+.ys-status--warm{background:rgba(255,194,71,.12);color:var(--ys-amber);border-color:rgba(255,194,71,.35);}
+.ys-topic-desc{font-size:13px;color:var(--ys-muted);}
+.ys-topic-list{list-style:none;margin:0;padding:0;display:grid;gap:7px;font-size:13px;}
+.ys-topic-list li{display:flex;gap:8px;color:#c2ccdb;}
+.ys-topic-list li::before{content:"▸";color:var(--ys-accent);flex:0 0 auto;}
+
+/* ===== Authors ===== */
+.ys-author-roster{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.ys-author{
+  display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:start;
+  background:var(--ys-bg-soft);border:1px solid var(--ys-line);border-radius:var(--ys-radius);
+  padding:18px;transition:border-color .2s,background .2s;
+}
+.ys-author:hover{border-color:#3b4a60;background:var(--ys-card);}
+.ys-avatar{
+  width:56px;height:56px;border-radius:50%;display:grid;place-items:center;
+  font-weight:800;font-size:19px;color:#0d1117;flex:0 0 auto;letter-spacing:.5px;
+}
+.ys-avatar--1{background:linear-gradient(140deg,#ff8b7f,#ff5b4d);}
+.ys-avatar--2{background:linear-gradient(140deg,#7de4de,#3fd0c9);}
+.ys-avatar--3{background:linear-gradient(140deg,#ffd479,#ffc247);}
+.ys-avatar--4{background:linear-gradient(140deg,#a9b7ff,#7f8fff);}
+.ys-avatar--5{background:linear-gradient(140deg,#ffa8c9,#ff7aa8);}
+.ys-avatar--6{background:linear-gradient(140deg,#9de8a4,#5ecb74);}
+.ys-author-name{font-size:15.5px;font-weight:800;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.ys-author-field{font-size:11.5px;color:var(--ys-cyan);font-weight:600;background:var(--ys-cyan-soft);padding:1px 8px;border-radius:999px;border:1px solid rgba(63,208,201,.3);}
+.ys-author-nums{font-size:12px;color:var(--ys-dim);display:flex;gap:14px;flex-wrap:wrap;margin:4px 0 8px;}
+.ys-author-bio{font-size:13px;color:var(--ys-muted);}
+.ys-author-more{margin-top:8px;}
+
+/* ===== Comments ===== */
+.ys-comment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.ys-comment{
+  background:var(--ys-bg-soft);border:1px solid var(--ys-line);border-radius:var(--ys-radius-sm);
+  padding:16px 18px;min-width:0;
+}
+.ys-comment-top{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+.ys-c-avatar{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:800;color:#0d1117;flex:0 0 auto;}
+.ys-c-name{font-size:13.5px;font-weight:700;}
+.ys-c-time{font-size:11.5px;color:var(--ys-dim);}
+.ys-c-text{font-size:13.5px;color:#c3cddd;}
+.ys-c-stars{color:var(--ys-amber);font-size:12px;letter-spacing:1px;margin-top:8px;}
+.ys-quote{
+  border-left:3px solid var(--ys-accent);padding:14px 18px;background:var(--ys-card);
+  border-radius:0 var(--ys-radius-sm) var(--ys-radius-sm) 0;font-size:14px;color:#d4dceb;
+  margin-top:16px;
+}
+.ys-quote footer{font-size:12.5px;color:var(--ys-dim);margin-top:6px;}
+
+/* ===== Longform analysis ===== */
+.ys-longform{
+  background:linear-gradient(170deg,var(--ys-bg-soft),var(--ys-card));
+  border:1px solid var(--ys-line);border-radius:20px;padding:clamp(20px,3.4vw,40px);
+}
+.ys-longform h3{font-size:17.5px;margin:22px 0 8px;color:#fff;display:flex;align-items:center;gap:9px;}
+.ys-longform h3:first-child{margin-top:0;}
+.ys-longform h3::before{content:"";width:4px;height:16px;border-radius:2px;background:linear-gradient(var(--ys-accent),var(--ys-cyan));flex:0 0 auto;}
+.ys-longform p{color:#b9c4d5;font-size:14.5px;}
+.ys-longform-list{color:#b9c4d5;font-size:14.5px;display:grid;gap:6px;margin:6px 0 14px;}
+.ys-two-col-text{columns:2;column-gap:34px;}
+@media (max-width:760px){.ys-two-col-text{columns:1;}}
+
+/* ===== Table / ranking ===== */
+.ys-rank{display:grid;gap:10px;}
+.ys-rank-row{
+  display:grid;grid-template-columns:40px minmax(0,1fr) auto;gap:14px;align-items:center;
+  background:var(--ys-bg-soft);border:1px solid var(--ys-line);border-radius:var(--ys-radius-sm);
+  padding:12px 16px;transition:background .2s,border-color .2s;
+}
+.ys-rank-row:hover{background:var(--ys-card);border-color:#3b4a60;}
+.ys-rank-no{font-size:17px;font-weight:900;color:var(--ys-dim);font-variant-numeric:tabular-nums;text-align:center;}
+.ys-rank-row:nth-child(1) .ys-rank-no{color:var(--ys-accent);}
+.ys-rank-row:nth-child(2) .ys-rank-no{color:var(--ys-amber);}
+.ys-rank-row:nth-child(3) .ys-rank-no{color:var(--ys-cyan);}
+.ys-rank-title{font-size:14.5px;font-weight:700;}
+.ys-rank-sub{font-size:12.5px;color:var(--ys-dim);}
+.ys-rank-val{font-size:13px;font-weight:800;color:var(--ys-cyan);white-space:nowrap;}
+
+/* ===== Updates / partners ===== */
+.ys-updates{display:grid;gap:12px;}
+.ys-update{display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:start;border-bottom:1px dashed var(--ys-line);padding-bottom:12px;}
+.ys-update:last-child{border-bottom:0;padding-bottom:0;}
+.ys-update-date{font-size:12.5px;color:var(--ys-dim);white-space:nowrap;padding-top:2px;font-variant-numeric:tabular-nums;}
+.ys-update-title{font-size:14.5px;font-weight:700;margin-bottom:2px;}
+.ys-update-desc{font-size:13px;color:var(--ys-muted);}
+
+.ys-partner-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;}
+.ys-partner{
+  border:1px solid var(--ys-line);background:var(--ys-bg-soft);border-radius:var(--ys-radius-sm);
+  padding:16px 14px;text-align:center;transition:border-color .2s,background .2s;
+}
+.ys-partner:hover{border-color:#3b4a60;background:var(--ys-card);}
+.ys-partner-name{font-size:14px;font-weight:800;letter-spacing:.4px;}
+.ys-partner-type{font-size:11.5px;color:var(--ys-dim);margin-top:2px;}
+
+/* ===== FAQ ===== */
+.ys-faq{display:grid;gap:10px;}
+.ys-faq details{
+  background:var(--ys-bg-soft);border:1px solid var(--ys-line);border-radius:var(--ys-radius-sm);
+  padding:0;overflow:hidden;
+}
+.ys-faq details[open]{border-color:#3b4a60;background:var(--ys-card);}
+.ys-faq summary{
+  cursor:pointer;padding:14px 18px;font-size:14.5px;font-weight:700;list-style:none;
+  display:flex;justify-content:space-between;gap:12px;align-items:center;
+}
+.ys-faq summary::-webkit-details-marker{display:none;}
+.ys-faq summary::after{content:"+";font-size:18px;color:var(--ys-accent);flex:0 0 auto;transition:transform .2s;}
+.ys-faq details[open] summary::after{content:"−";}
+.ys-faq .ys-faq-body{padding:0 18px 16px;color:var(--ys-muted);font-size:13.5px;}
+
+/* ===== Footer ===== */
+.ys-footer{margin-top:64px;border-top:1px solid var(--ys-line);background:linear-gradient(180deg,transparent,rgba(0,0,0,.35));}
+.ys-footer-top{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:28px;padding:44px 0 30px;}
+.ys-footer h4{font-size:13px;color:#fff;margin-bottom:12px;letter-spacing:1px;}
+.ys-footer ul{list-style:none;padding:0;margin:0;display:grid;gap:7px;}
+.ys-footer li,.ys-footer p{font-size:13px;color:var(--ys-muted);}
+.ys-footer-brand-desc{font-size:13px;color:var(--ys-muted);max-width:320px;margin-top:12px;}
+.ys-footer-bottom{
+  border-top:1px solid var(--ys-line);padding:18px 0 26px;display:flex;justify-content:space-between;
+  gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--ys-dim);
+}
+.ys-footer-bottom a{color:var(--ys-muted);}
+.ys-footer-bottom a:hover{color:var(--ys-cyan);}
+
+/* ===== Toast & Modal ===== */
+.ys-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,18px);z-index:300;
+  background:#222b39;border:1px solid #3a4860;color:#fff;border-radius:11px;
+  padding:11px 20px;font-size:13.5px;box-shadow:0 20px 44px -20px rgba(0,0,0,.95);
+  opacity:0;pointer-events:none;transition:opacity .22s,transform .22s;max-width:calc(100vw - 40px);
+}
+.ys-toast.ys-is-visible{opacity:1;transform:translate(-50%,0);}
+
+.ys-modal{
+  position:fixed;inset:0;z-index:260;display:none;place-items:center;padding:20px;
+  background:rgba(6,9,13,.72);backdrop-filter:blur(4px);
+}
+.ys-modal.ys-is-open{display:grid;}
+.ys-modal-card{
+  width:min(520px,100%);background:var(--ys-card);border:1px solid var(--ys-line);
+  border-radius:18px;padding:26px;box-shadow:0 40px 90px -40px #000;max-height:86vh;overflow:auto;
+}
+.ys-modal-card h3{font-size:18px;margin-bottom:8px;}
+.ys-modal-card p{font-size:13.5px;color:var(--ys-muted);}
+.ys-modal-close{
+  margin-top:20px;display:flex;justify-content:flex-end;gap:10px;
+}
+.ys-modal-field{
+  display:grid;gap:6px;margin-top:14px;font-size:13px;color:var(--ys-muted);
+}
+.ys-modal-field input,.ys-modal-field textarea{
+  background:var(--ys-bg-soft);border:1px solid var(--ys-line);border-radius:9px;
+  color:var(--ys-text);padding:9px 12px;font-size:13.5px;font-family:inherit;outline:none;width:100%;
+}
+.ys-modal-field input:focus,.ys-modal-field textarea:focus{border-color:var(--ys-accent);}
+
+.ys-top-btn{
+  position:fixed;right:22px;bottom:26px;z-index:150;width:44px;height:44px;border-radius:50%;
+  background:var(--ys-card-2);border:1px solid var(--ys-line);color:var(--ys-text);
+  display:grid;place-items:center;cursor:pointer;opacity:0;pointer-events:none;
+  transition:opacity .22s,transform .22s,background .2s;
+}
+.ys-top-btn.ys-is-visible{opacity:1;pointer-events:auto;}
+.ys-top-btn:hover{background:var(--ys-accent);border-color:transparent;color:#fff;transform:translateY(-2px);}
+
+.ys-split{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:26px;align-items:start;}
+
+/* ===== Responsive ===== */
+@media (max-width:1020px){
+  .ys-nav{display:none;}
+  .ys-burger{display:grid;}
+  .ys-search-input{width:150px;}
+  .ys-grid-3{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .ys-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .ys-partner-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .ys-footer-top{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .ys-hero-grid,.ys-focus-grid,.ys-split{grid-template-columns:minmax(0,1fr);}
+}
+@media (max-width:760px){
+  .ys-header-inner{gap:10px;padding:10px 16px;}
+  .ys-head-tools .ys-btn--ghost{display:none;}
+  .ys-search{display:none;}
+  .ys-wrap{padding:0 16px;}
+  .ys-hero{padding-top:24px;}
+  .ys-grid-3,.ys-grid-2,.ys-topic-grid,.ys-author-roster,.ys-comment-grid{grid-template-columns:minmax(0,1fr);}
+  .ys-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;}
+  .ys-stat{padding:10px;}
+  .ys-list-item{grid-template-columns:minmax(0,1fr);}
+  .ys-list-index{display:none;}
+  .ys-partner-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .ys-footer-top{grid-template-columns:minmax(0,1fr);gap:22px;padding-top:32px;}
+  .ys-rank-row{grid-template-columns:30px minmax(0,1fr);}
+  .ys-rank-val{grid-column:2;justify-self:start;}
+  .ys-hero-float{right:0;top:-10px;font-size:11.5px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="ys-skip" href="#ys-main">跳至主要内容</a>
+
+<div class="ys-sticky-stack">
+  <div class="ys-announce" role="region" aria-label="站内公告">
+    <div class="ys-announce-inner">
+      <span class="ys-announce-tag">公告</span>
+      <div class="ys-announce-text"><strong>11 月新片单上线：</strong>「城市夜行者」纪录单元新增 12 部高清正版内容，同步开放创作者投稿通道与年度投票入口。</div>
+      <a class="ys-announce-link" href="#ys-updates">查看更新明细 →</a>
+    </div>
+  </div>
+
+  <header class="ys-header">
+    <div class="ys-header-inner">
+      <a class="ys-brand" href="#ys-top" aria-label="影视大全官方门户首页">
+        <span class="ys-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 5.5 19 12 8 18.5V5.5Z" fill="#fff"/></svg>
+        </span>
+        <span>
+          <span class="ys-brand-name">影视大全</span>
+          <span class="ys-brand-sub">SCREENVERSE</span>
+        </span>
+      </a>
+
+      <nav class="ys-nav" aria-label="主导航">
+        <ul class="ys-nav-list">
+          <li><a class="ys-nav-link" href="#ys-focus">焦点</a></li>
+          <li><a class="ys-nav-link" href="#ys-videos">视频</a></li>
+          <li><a class="ys-nav-link" href="#ys-topics">专题</a></li>
+          <li><a class="ys-nav-link" href="#ys-authors">创作者</a></li>
+          <li><a class="ys-nav-link" href="#ys-analysis">深度解析</a></li>
+          <li><a class="ys-nav-link" href="#ys-comments">口碑</a></li>
+          <li><a class="ys-nav-link" href="#ys-faq">帮助</a></li>
+        </ul>
+      </nav>
+
+      <div class="ys-head-tools">
+        <div class="ys-search">
+          <svg class="ys-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input class="ys-search-input" id="ys-search-input" type="search" placeholder="搜索影片、专题、创作者" aria-label="站内搜索" autocomplete="off">
+          <div class="ys-search-hint" id="ys-search-hint" role="status" aria-live="polite"></div>
+        </div>
+        <button class="ys-btn ys-btn--primary" id="ys-open-submit" type="button">投稿</button>
+        <button class="ys-burger" id="ys-burger" type="button" aria-expanded="false" aria-controls="ys-mobile-nav" aria-label="展开导航菜单">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="ys-mobile-nav" id="ys-mobile-nav">
+      <ul>
+        <li><a href="#ys-focus">焦点推荐</a></li>
+        <li><a href="#ys-videos">热门视频</a></li>
+        <li><a href="#ys-topics">专题企划</a></li>
+        <li><a href="#ys-authors">创作者矩阵</a></li>
+        <li><a href="#ys-analysis">品牌深度解析</a></li>
+        <li><a href="#ys-rank">热度榜单</a></li>
+        <li><a href="#ys-comments">用户口碑</a></li>
+        <li><a href="#ys-updates">企业动态</a></li>
+        <li><a href="#ys-faq">常见问题</a></li>
+      </ul>
+    </div>
+  </header>
+</div>
+
+<main id="ys-main">
+  <div id="ys-top"></div>
+
+  <!-- HERO -->
+  <section class="ys-hero" aria-labelledby="ys-hero-title">
+    <div class="ys-wrap">
+      <div class="ys-hero-grid">
+        <div class="ys-hero-copy">
+          <span class="ys-hero-badge"><i aria-hidden="true"></i>品牌官方门户 · 高清正版持续运营</span>
+          <h1 class="ys-hero-title" id="ys-hero-title"><span>影视大全在线免费观看</span></h1>
+          <p class="ys-hero-lead">企业级影视内容生态平台，把散落在不同频道的好片、好故事与好创作者，收进一个清晰、可信、可长期浏览的门户。</p>
+          <p class="ys-hero-intro">作为深耕影视垂直领域的品牌官网，影视大全在线免费观看以原创与正版为底座，为观众与创作者搭建高品质内容生态：从剧集、纪录影像到幕后访谈与实用攻略，每一部作品都经过编辑团队筛选与画质校验，让「找片—看懂—聊起来」在一个平台上完成。我们坚持用户至上与匠心打磨，让观看这件事回归内容本身，也让每一次点击都值得信赖。</p>
+          <div class="ys-hero-actions">
+            <a class="ys-btn ys-btn--primary" href="#ys-videos">进入视频频道</a>
+            <a class="ys-btn ys-btn--cyan" href="#ys-topics">浏览专题企划</a>
+            <a class="ys-btn ys-btn--ghost" href="#ys-analysis">了解品牌与平台</a>
+          </div>
+          <div class="ys-stats">
+            <div class="ys-stat">
+              <div class="ys-stat-num"><b>18,600</b>+</div>
+              <div class="ys-stat-label">高清正版内容条目</div>
+            </div>
+            <div class="ys-stat">
+              <div class="ys-stat-num"><b>3,240</b>+</div>
+              <div class="ys-stat-label">入驻创作者与团队</div>
+            </div>
+            <div class="ys-stat">
+              <div class="ys-stat-num"><b>96.4</b>%</div>
+              <div class="ys-stat-label">内容完播满意度</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ys-hero-visual">
+          <span class="ys-hero-float">本周新增 27 部 · 官方发布</span>
+          <figure class="ys-hero-figure" style="margin:0;">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 880 605'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%2310192d'/%3E%3Cstop offset='.55' stop-color='%23223a5c'/%3E%3Cstop offset='1' stop-color='%23d96a52'/%3E%3C/linearGradient%3E%3ClinearGradient id='floor' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%232b1d28'/%3E%3Cstop offset='1' stop-color='%230b0d14'/%3E%3C/linearGradient%3E%3ClinearGradient id='beam' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ffd7b0' stop-opacity='.55'/%3E%3Cstop offset='1' stop-color='%23ffd7b0' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='880' height='605' fill='url(%23sky)'/%3E%3Ccircle cx='700' cy='130' r='62' fill='%23ffd9a8' opacity='.85'/%3E%3Ccircle cx='700' cy='130' r='96' fill='%23ffd9a8' opacity='.12'/%3E%3Cpath d='M0 400 L150 300 L280 370 L430 265 L580 360 L720 290 L880 372 L880 605 L0 605 Z' fill='%23141b2a'/%3E%3Cpath d='M0 470 L180 388 L340 452 L500 380 L660 455 L820 396 L880 424 L880 605 L0 605 Z' fill='url(%23floor)'/%3E%3Crect x='0' y='452' width='880' height='153' fill='url(%23beam)' opacity='.35'/%3E%3Cg fill='%23080a10'%3E%3Crect x='250' y='330' width='26' height='130' rx='6'/%3E%3Crect x='612' y='316' width='22' height='144' rx='6'/%3E%3C/g%3E%3Cg fill='%23ff6a52'%3E%3Ccircle cx='263' cy='330' r='13'/%3E%3Ccircle cx='623' cy='316' r='11'/%3E%3C/g%3E%3Cg%3E%3Crect x='320' y='430' width='250' height='14' rx='7' fill='%233a2b3a' opacity='.9'/%3E%3Crect x='300' y='444' width='290' height='10' rx='5' fill='%23241726'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.7'%3E%3Ccircle cx='120' cy='90' r='2.2'/%3E%3Ccircle cx='210' cy='60' r='1.6'/%3E%3Ccircle cx='330' cy='110' r='2'/%3E%3Ccircle cx='480' cy='70' r='1.8'/%3E%3Ccircle cx='560' cy='140' r='2.4'/%3E%3Ccircle cx='790' cy='80' r='1.7'/%3E%3C/g%3E%3Cg opacity='.9'%3E%3Ccircle cx='452' cy='300' r='46' fill='%23ffffff' opacity='.1'/%3E%3Cpath d='M438 278 L478 300 L438 322 Z' fill='%23ffffff' opacity='.88'/%3E%3C/g%3E%3C/svg%3E" alt="影视大全官方门户主视觉：黄昏影院场景中的放映光束与播放按钮" width="880" height="605" loading="eager">
+            <figcaption class="ys-hero-play">
+              <span class="ys-play-dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#fff"><path d="M8 5.5 19 12 8 18.5Z"/></svg></span>
+              本周主推 ·「城市夜行者」纪录单元
+            </figcaption>
+          </figure>
+          <p class="ys-hero-caption">平台年度编辑精选，覆盖剧集、纪录、访谈与幕后四类内容。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOCUS -->
+  <section class="ys-section" id="ys-focus" aria-labelledby="ys-focus-title">
+    <div class="ys-wrap">
+      <div class="ys-section-head">
+        <div>
+          <span class="ys-eyebrow">Editor's Pick</span>
+          <h2 class="ys-h2" id="ys-focus-title">焦点推荐：<em>影视大全</em>本周值得点开的四部作品</h2>
+          <p class="ys-section-desc">编辑团队从近三百条更新中筛出四部，兼顾叙事完成度、影像质感与讨论热度，适合一次性看完，也适合慢慢回看。</p>
+        </div>
+        <a class="ys-btn ys-btn--ghost" href="#ys-videos">全部视频 →</a>
+      </div>
+
+      <div class="ys-focus-grid">
+        <article class="ys-feature-card">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='n1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230f2233'/%3E%3Cstop offset='1' stop-color='%231d4055'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23n1)'/%3E%3Cg stroke='%233fd0c9' stroke-width='2' opacity='.55' fill='none'%3E%3Cpath d='M40 380 L190 300 L320 340 L470 240 L610 300 L760 210'/%3E%3Cpath d='M40 410 L190 340 L320 380 L470 290 L610 340 L760 260' opacity='.5'/%3E%3C/g%3E%3Cg fill='%23ffc247'%3E%3Ccircle cx='190' cy='300' r='6'/%3E%3Ccircle cx='470' cy='240' r='6'/%3E%3Ccircle cx='760' cy='210' r='6'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.85'%3E%3Crect x='40' y='46' width='150' height='12' rx='6'/%3E%3Crect x='40' y='76' width='240' height='8' rx='4' opacity='.6'/%3E%3C/g%3E%3Cg opacity='.22' fill='%23ffffff'%3E%3Ccircle cx='660' cy='90' r='48'/%3E%3C/g%3E%3C/svg%3E" alt="纪录片《城市夜行者》封面上交错的夜色轨迹曲线" width="800" height="450" loading="lazy">
+          <div class="ys-feature-body">
+            <div class="ys-tagrow">
+              <span class="ys-tag ys-tag--accent">本周主推</span>
+              <span class="ys-tag ys-tag--cyan">纪录影像</span>
+              <span class="ys-tag">城市探索</span>
+            </div>
+            <h3 class="ys-feature-title">城市夜行者：凌晨四点仍在醒着的十二条街</h3>
+            <p class="ys-feature-desc">跟拍夜班公交司机、24 小时便利店店员与街头修灯人，用 46 分钟讲清一座城市如何在黑暗里继续运转。全片无旁白，靠环境声与真实对话推进，是平台今年完成度最高的纪录作品之一。</p>
+            <div class="ys-meta-row">
+              <span>作者：沈岸影像</span><span>播放 128.6 万</span><span>点赞 9.4 万</span><span>收藏 2.7 万</span>
+            </div>
+            <div class="ys-actions">
+              <button class="ys-act" type="button" data-ys-like aria-pressed="false">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.5-7-9.5A4 4 0 0 1 12 7a4 4 0 0 1 7 3.5C19 15.5 12 20 12 20Z"/></svg>
+                点赞 <span data-ys-like-count>94,120</span>
+              </button>
+              <button class="ys-act" type="button" data-ys-save aria-pressed="false">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12v17l-6-4-6 4V4Z"/></svg>
+                收藏
+              </button>
+              <button class="ys-act" type="button" data-ys-copy data-copy-title="城市夜行者：凌晨四点仍在醒着的十二条街">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg>
+                复制链接
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <div class="ys-list">
+          <article class="ys-list-item">
+            <div>
+              <h3 class="ys-list-title">剧集《春分之后》第六集：一场没有台词的和解</h3>
+              <p class="ys-list-desc">本集用两个固定机位、八分钟长镜头完成母女对峙，剪辑几乎隐形。适合想研究「留白如何叙事」的观众逐帧回看。</p>
+              <div class="ys-list-meta"><span>林间剧场</span><span>播放 86.3 万</span><span>点赞 6.1 万</span></div>
+            </div>
+            <span class="ys-list-index">01</span>
+          </article>
+          <article class="ys-list-item">
+            <div>
+              <h3 class="ys-list-title">幕后：一部小成本短片怎样在七天内完成调色</h3>
+              <p class="ys-list-desc">从 LUT 选择到肤色保护，调色师拆解了三个真实工程文件，附可下载的节点说明，是创作者最常回看的实用干货。</p>
+              <div class="ys-list-meta"><span>像素工坊</span><span>播放 43.8 万</span><span>收藏 1.9 万</span></div>
+            </div>
+            <span class="ys-list-index">02</span>
+          </article>
+          <article class="ys-list-item">
+            <div>
+              <h3 class="ys-list-title">访谈：做了十二年配角，他怎么理解「被看见」</h3>
+              <p class="ys-list-desc">一次不设提纲的 70 分钟长谈，聊职业焦虑、片场礼仪和表演的真实感，访谈摘录已被多家内容团队引用。</p>
+              <div class="ys-list-meta"><span>陆见访谈</span><span>播放 62.7 万</span><span>点赞 4.4 万</span></div>
+            </div>
+            <span class="ys-list-index">03</span>
+          </article>
+          <article class="ys-list-item">
+            <div>
+              <h3 class="ys-list-title">知识科普：电影里的雨，为什么大多是造出来的</h3>
+              <p class="ys-list-desc">从雨具型号、灯光角度到后期叠加，一期讲清银幕降雨的工业流程，用六段对照实验让你一眼分辨真雨与假雨。</p>
+              <div class="ys-list-meta"><span>拆片研究所</span><span>播放 51.2 万</span><span>点赞 3.8 万</span></div>
+            </div>
+            <span class="ys-list-index">04</span>
+          </article>
+          <article class="ys-list-item">
+            <div>
+              <h3 class="ys-list-title">攻略：如何在两小时内判断一部片是否值得看</h3>
+              <p class="ys-list-desc">编辑给出一个「三分钟—二十分钟—两小时」的分段判断法，兼顾信息效率与观影耐心，适合片单焦虑型观众。</p>
+              <div class="ys-list-meta"><span>片单编辑组</span><span>播放 38.5 万</span><span>收藏 2.2 万</span></div>
+            </div>
+            <span class="ys-list-index">05</span>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="ys-section" id="ys-videos" aria-labelledby="ys-videos-title">
+    <div class="ys-wrap">
+      <div class="ys-section-head">
+        <div>
+          <span class="ys-eyebrow">Video Stream</span>
+          <h2 class="ys-h2" id="ys-videos-title">热门视频流：<em>影视大全在线免费观看</em>的本周更新</h2>
+          <p class="ys-section-desc">六条优先推荐，覆盖剧集、纪录、教程与访谈。每一条都标注了适合观看的场景，方便你按时间与心情挑选。</p>
+        </div>
+        <a class="ys-btn ys-btn--ghost" href="#ys-rank">查看热度榜 →</a>
+      </div>
+
+      <div class="ys-grid-3">
+        <article class="ys-vcard">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%2314241f'/%3E%3Cg fill='%235ecb74' opacity='.9'%3E%3Crect x='60' y='210' width='24' height='90' rx='4'/%3E%3Crect x='104' y='170' width='24' height='130' rx='4'/%3E%3Crect x='148' y='230' width='24' height='70' rx='4'/%3E%3C/g%3E%3Cg fill='%233fd0c9' opacity='.8'%3E%3Ccircle cx='470' cy='120' r='54'/%3E%3Ccircle cx='470' cy='120' r='80' fill='none' stroke='%233fd0c9' stroke-width='2' opacity='.4'/%3E%3C/g%3E%3Cpath d='M300 300 L400 250 L500 300 L600 260' stroke='%23ffc247' stroke-width='3' fill='none'/%3E%3Crect x='60' y='60' width='140' height='14' rx='7' fill='%23ffffff' opacity='.75'/%3E%3Crect x='60' y='88' width='210' height='9' rx='4' fill='%23ffffff' opacity='.4'/%3E%3C/svg%3E" alt="教程《一个镜头讲完一件事》封面中的数据曲线与光圈示意" width="640" height="360" loading="lazy">
+          <div class="ys-vcard-body">
+            <div class="ys-tagrow"><span class="ys-tag ys-tag--cyan">教程干货</span><span class="ys-tag">剪辑</span></div>
+            <h3 class="ys-vcard-title">一个镜头讲完一件事：叙事型剪辑的五个判断</h3>
+            <p class="ys-vcard-desc">把「讲清楚」拆成五个可执行判断：信息优先级、动作切点、视线引导、声画错位和留白长度。每条都配了反面例子。</p>
+            <div class="ys-vcard-foot"><span>像素工坊 · 播放 72.4 万</span><button class="ys-act ys-btn--sm" type="button" data-ys-save aria-pressed="false">收藏</button></div>
+          </div>
+        </article>
+
+        <article class="ys-vcard">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='s2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23321a22'/%3E%3Cstop offset='1' stop-color='%231a1224'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23s2)'/%3E%3Cg fill='%23ff8b7f' opacity='.85'%3E%3Ccircle cx='180' cy='180' r='70'/%3E%3C/g%3E%3Cg fill='%230d0a12'%3E%3Ccircle cx='180' cy='172' r='34'/%3E%3Crect x='150' y='206' width='60' height='88' rx='26'/%3E%3C/g%3E%3Cg stroke='%23ffc247' stroke-width='3' fill='none' opacity='.8'%3E%3Cpath d='M330 120 q70 -40 140 10 t170 0'/%3E%3Cpath d='M330 270 q70 40 140 -10 t170 0'/%3E%3C/g%3E%3Crect x='330' y='180' width='180' height='12' rx='6' fill='%23ffffff' opacity='.5'/%3E%3C/svg%3E" alt="访谈节目《做了十二年配角》封面中的人物剪影与声波线条" width="640" height="360" loading="lazy">
+          <div class="ys-vcard-body">
+            <div class="ys-tagrow"><span class="ys-tag ys-tag--accent">人物访谈</span><span class="ys-tag">表演</span></div>
+            <h3 class="ys-vcard-title">做了十二年配角，他怎么理解「被看见」</h3>
+            <p class="ys-vcard-desc">不设提纲的长谈，聊到职业倦怠、片场秩序与「小角色也要有完整内心」。访谈后半段有一段安静得让人不敢快进的停顿。</p>
+            <div class="ys-vcard-foot"><span>陆见访谈 · 播放 62.7 万</span><button class="ys-act ys-btn--sm" type="button" data-ys-save aria-pressed="false">收藏</button></div>
+          </div>
+        </article>
+
+        <article class="ys-vcard">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%230d1b2b'/%3E%3Cg fill='none' stroke='%233fd0c9' stroke-width='2' opacity='.7'%3E%3Cpath d='M0 260 h640'/%3E%3Cpath d='M0 300 h640'/%3E%3Cpath d='M80 360 v-120'/%3E%3Cpath d='M240 360 v-160'/%3E%3C/path%3E%3C/g%3E%3Cg fill='%23ff5b4d'%3E%3Crect x='70' y='190' width='20' height='26' rx='3'/%3E%3Crect x='120' y='210' width='20' height='26' rx='3'/%3E%3Crect x='170' y='176' width='20' height='26' rx='3'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.7'%3E%3Crect x='330' y='90' width='220' height='12' rx='6'/%3E%3Crect x='330' y='120' width='160' height='9' rx='4'/%3E%3Crect x='330' y='146' width='190' height='9' rx='4'/%3E%3C/g%3E%3Ccircle cx='300' cy='250' r='44' fill='%23ffc247' opacity='.9'/%3E%3Cpath d='M290 232 L318 250 L290 268 Z' fill='%230d1b2b'/%3E%3C/svg%3E" alt="纪录短片《十二分钟，一条街》封面中的街区构图与时间刻度" width="640" height="360" loading="lazy">
+          <div class="ys-vcard-body">
+            <div class="ys-tagrow"><span class="ys-tag ys-tag--cyan">纪录影像</span><span class="ys-tag">在地文化</span></div>
+            <h3 class="ys-vcard-title">十二分钟，一条街：老市场的早市时间表</h3>
+            <p class="ys-vcard-desc">从四点开灯到十一点收摊，摊主们的时间表被拆成六段。镜头很稳，声音很杂，正是这种杂让人相信它真实。</p>
+            <div class="ys-vcard-foot"><span>沈岸影像 · 播放 58.1 万</span><button class="ys-act ys-btn--sm" type="button" data-ys-save aria-pressed="false">收藏</button></div>
+          </div>
+        </article>
+
+        <article class="ys-vcard">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%231d1a2e'/%3E%3Cg%3E%3Crect x='60' y='70' width='240' height='150' rx='10' fill='%235e4b8a' opacity='.8'/%3E%3Crect x='320' y='70' width='120' height='100' rx='10' fill='%233fd0c9' opacity='.55'/%3E%3Crect x='320' y='190' width='260' height='30' rx='8' fill='%23ffc247' opacity='.7'/%3E%3Crect x='60' y='240' width='240' height='40' rx='8' fill='%23ff5b4d' opacity='.7'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.75'%3E%3Crect x='80' y='96' width='120' height='10' rx='5'/%3E%3Crect x='80' y='118' width='170' height='8' rx='4'/%3E%3Crect x='80' y='138' width='90' height='8' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="测评视频《三种小成本布光》封面中的灯位布局示意图" width="640" height="360" loading="lazy">
+          <div class="ys-vcard-body">
+            <div class="ys-tagrow"><span class="ys-tag ys-tag--accent">深度测评</span><span class="ys-tag">器材</span></div>
+            <h3 class="ys-vcard-title">三种小成本布光，能撑起多少种场景</h3>
+            <p class="ys-vcard-desc">同一个人、同一间屋，只换三套灯位。测评给出照度数据、实拍样片和失败版本，最后结论比预想的更保守但更实用。</p>
+            <div class="ys-vcard-foot"><span>拆片研究所 · 播放 39.6 万</span><button class="ys-act ys-btn--sm" type="button" data-ys-save aria-pressed="false">收藏</button></div>
+          </div>
+        </article>
+
+        <article class="ys-vcard">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%2310161e'/%3E%3Cg stroke='%23ffc247' stroke-width='2.5' fill='none'%3E%3Ccircle cx='320' cy='180' r='96'/%3E%3Ccircle cx='320' cy='180' r='58'/%3E%3C/g%3E%3Cg fill='%23ff5b4d'%3E%3Ccircle cx='320' cy='84' r='8'/%3E%3Ccircle cx='320' cy='276' r='8'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.65'%3E%3Crect x='60' y='60' width='110' height='10' rx='5'/%3E%3Crect x='60' y='300' width='200' height='8' rx='4'/%3E%3Crect x='440' y='296' width='140' height='8' rx='4'/%3E%3C/g%3E%3Cpath d='M275 180 L310 160 L310 200 Z' fill='%233fd0c9'/%3E%3Cpath d='M365 180 L330 160 L330 200 Z' fill='%233fd0c9'/%3E%3C/svg%3E" alt="影评节目《为什么这个结尾成立》封面中的圆形叙事结构图" width="640" height="360" loading="lazy">
+          <div class="ys-vcard-body">
+            <div class="ys-tagrow"><span class="ys-tag ys-tag--cyan">深度影评</span><span class="ys-tag">叙事</span></div>
+            <h3 class="ys-vcard-title">为什么这个结尾成立：三处伏笔与一次情绪回收</h3>
+            <p class="ys-vcard-desc">不剧透关键情节的前提下，只讲结构：三处伏笔如何埋，情绪如何在最后一分钟被回收，以及为什么它拒绝给出答案。</p>
+            <div class="ys-vcard-foot"><span>片单编辑组 · 播放 47.3 万</span><button class="ys-act ys-btn--sm" type="button" data-ys-save aria-pressed="false">收藏</button></div>
+          </div>
+        </article>
+
+        <article class="ys-vcard">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='s6' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23112a2c'/%3E%3Cstop offset='1' stop-color='%23213a3c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23s6)'/%3E%3Cg fill='%233fd0c9' opacity='.55'%3E%3Crect x='70' y='250' width='120' height='60' rx='8'/%3E%3Crect x='210' y='210' width='120' height='100' rx='8'/%3E%3Crect x='350' y='170' width='120' height='140' rx='8'/%3E%3Crect x='490' y='230' width='90' height='80' rx='8'/%3E%3C/g%3E%3Cg fill='%23ffc247'%3E%3Ccircle cx='440' cy='100' r='42' opacity='.9'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.8'%3E%3Crect x='70' y='64' width='180' height='12' rx='6'/%3E%3Crect x='70' y='92' width='120' height='8' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="纪录系列《片场之外》封面中的城市建筑剪影与夕阳" width="640" height="360" loading="lazy">
+          <div class="ys-vcard-body">
+            <div class="ys-tagrow"><span class="ys-tag">创作幕后</span><span class="ys-tag">职场日常</span></div>
+            <h3 class="ys-vcard-title">片场之外：一个剧组收工后的四小时</h3>
+            <p class="ys-vcard-desc">灯收完了，人也散了，剩下的人还在核对明天的通告。这条片子拍的是影视行业最少被拍的部分，也是最能理解「匠心」的部分。</p>
+            <div class="ys-vcard-foot"><span>林间剧场 · 播放 33.9 万</span><button class="ys-act ys-btn--sm" type="button" data-ys-save aria-pressed="false">收藏</button></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOPICS -->
+  <section class="ys-section" id="ys-topics" aria-labelledby="ys-topics-title">
+    <div class="ys-wrap">
+      <div class="ys-section-head">
+        <div>
+          <span class="ys-eyebrow">Special Programs</span>
+          <h2 class="ys-h2" id="ys-topics-title">专题企划：围绕<em>影视大全</em>的三条内容主线</h2>
+          <p class="ys-section-desc">专题不是合集，而是有观点的编排。每个企划都由编辑、创作者与观众共同推动，持续更新并可参与投票。</p>
+        </div>
+      </div>
+
+      <div class="ys-topic-grid">
+        <article class="ys-topic">
+          <div class="ys-topic-head">
+            <h3 class="ys-topic-title">城市夜行者</h3>
+            <span class="ys-status">更新中 · 第 3 期</span>
+          </div>
+          <p class="ys-topic-desc">以夜间工作者为切口，记录城市在多数人睡着之后如何继续运行。纪实优先，拒绝摆拍式煽情。</p>
+          <ul class="ys-topic-list">
+            <li>凌晨四点的公交总站：夜班司机的交接仪式</li>
+            <li>24 小时便利店的第七年：一个店长的夜班笔记</li>
+            <li>修灯人：谁在替整座城市换灯泡</li>
+          </ul>
+          <button class="ys-btn ys-btn--sm ys-btn--cyan" type="button" data-ys-vote data-vote-name="城市夜行者">参与投票</button>
+        </article>
+
+        <article class="ys-topic">
+          <div class="ys-topic-head">
+            <h3 class="ys-topic-title">拆片实验室</h3>
+            <span class="ys-status ys-status--warm">每月更新</span>
+          </div>
+          <p class="ys-topic-desc">把一个镜头、一场戏拆到可以复用的程度。面向创作者，也面向愿意看懂门道的观众，所有案例均为正版高清素材。</p>
+          <ul class="ys-topic-list">
+            <li>一个镜头讲完一件事：叙事型剪辑的五个判断</li>
+            <li>三种小成本布光，能撑起多少种场景</li>
+            <li>电影里的雨，为什么大多是造出来的</li>
+          </ul>
+          <button class="ys-btn ys-btn--sm ys-btn--cyan" type="button" data-ys-vote data-vote-name="拆片实验室">参与投票</button>
+        </article>
+
+        <article class="ys-topic">
+          <div class="ys-topic-head">
+            <h3 class="ys-topic-title">创作者夜谈</h3>
+            <span class="ys-status">即将上线</span>
+          </div>
+          <p class="ys-topic-desc">每月邀请两到三位创作者，聊作品之外的事：预算、崩溃、合作与坚持。形式是长谈，不做剪辑式的高光堆叠。</p>
+          <ul class="ys-topic-list">
+            <li>做了十二年配角，他怎么理解「被看见」</li>
+            <li>从投稿到上线：一部短片的 90 天时间线</li>
+            <li>当创作变成工作：三位全职创作者的收入结构</li>
+          </ul>
+          <button class="ys-btn ys-btn--sm ys-btn--cyan" type="button" data-ys-vote data-vote-name="创作者夜谈">参与投票</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHORS -->
+  <section class="ys-section" id="ys-authors" aria-labelledby="ys-authors-title">
+    <div class="ys-wrap">
+      <div class="ys-section-head">
+        <div>
+          <span class="ys-eyebrow">Creators</span>
+          <h2 class="ys-h2" id="ys-authors-title">创作者矩阵：让<em>内容生态</em>长出稳定的形状</h2>
+          <p class="ys-section-desc">以下六位创作者长期在平台更新，覆盖纪录、剧集、访谈、教程与测评。点击「档案」可查看其代表作与更新节奏。</p>
+        </div>
+        <a class="ys-btn ys-btn--ghost" href="#ys-faq">创作者入驻说明 →</a>
+      </div>
+
+      <div class="ys-author-roster">
+        <article class="ys-author">
+          <div class="ys-avatar ys-avatar--1" aria-hidden="true">沈</div>
+          <div>
+            <h3 class="ys-author-name">沈岸影像 <span class="ys-author-field">纪录影像</span></h3>
+            <div class="ys-author-nums"><span>作品 86</span><span>粉丝 42.6 万</span></div>
+            <p class="ys-author-bio">擅长用低干预的方式跟拍，几乎不写旁白，把解释权交给环境声与人物原话。代表作《城市夜行者》系列在平台连续三期进入热度榜前十，作品画面质感稳定、叙事克制，是很多新创作者学习纪录语法的入口。</p>
+            <button class="ys-btn ys-btn--sm ys-btn--ghost ys-author-more" type="button" data-ys-author="沈岸影像" data-ys-author-info="纪录影像创作者，平台签约作者。更新节奏约为每月一支长片、两支短片，代表作《城市夜行者》《十二分钟，一条街》。">查看档案</button>
+          </div>
+        </article>
+
+        <article class="ys-author">
+          <div class="ys-avatar ys-avatar--2" aria-hidden="true">像</div>
+          <div>
+            <h3 class="ys-author-name">像素工坊 <span class="ys-author-field">剪辑教程</span></h3>
+            <div class="ys-author-nums"><span>作品 132</span><span>粉丝 63.8 万</span></div>
+            <p class="ys-author-bio">把剪辑经验整理成可执行的清单，是站内收藏率最高的教程作者之一。习惯先给结论再拆过程，语速快但不跳步；每期附工程文件与参数说明，强调「能复现才算学会」，对初学者尤其友好。</p>
+            <button class="ys-btn ys-btn--sm ys-btn--ghost ys-author-more" type="button" data-ys-author="像素工坊" data-ys-author-info="剪辑教程创作者，站内收藏率领先。每周一更，代表作《一个镜头讲完一件事》《七天完成调色》。">查看档案</button>
+          </div>
+        </article>
+
+        <article class="ys-author">
+          <div class="ys-avatar ys-avatar--3" aria-hidden="true">陆</div>
+          <div>
+            <h3 class="ys-author-name">陆见访谈 <span class="ys-author-field">人物访谈</span></h3>
+            <div class="ys-author-nums"><span>作品 58</span><span>粉丝 37.2 万</span></div>
+            <p class="ys-author-bio">前纸媒记者，转入影像后仍然坚持长访谈，通常一次录制超过两小时，最后剪成四十分钟左右。提问直接但留有退路，擅长让对方把话说完；其访谈摘录常被内容团队当作采访范例引用。</p>
+            <button class="ys-btn ys-btn--sm ys-btn--ghost ys-author-more" type="button" data-ys-author="陆见访谈" data-ys-author-info="人物访谈创作者，前纸媒记者。双周一更，代表作《做了十二年配角》《片场之外》系列。">查看档案</button>
+          </div>
+        </article>
+
+        <article class="ys-author">
+          <div class="ys-avatar ys-avatar--4" aria-hidden="true">林</div>
+          <div>
+            <h3 class="ys-author-name">林间剧场 <span class="ys-author-field">剧集创作</span></h3>
+            <div class="ys-author-nums"><span>作品 41</span><span>粉丝 51.4 万</span></div>
+            <p class="ys-author-bio">以低成本、高密度对话的剧集见长，偏爱固定机位与长镜头，把预算限制转化为风格。团队只有五个人，从编剧到剪辑全部自己完成。代表作《春分之后》在平台累计播放超过两千万，口碑稳定。</p>
+            <button class="ys-btn ys-btn--sm ys-btn--ghost ys-author-more" type="button" data-ys-author="林间剧场" data-ys-author-info="剧集创作团队，五人小剧组。季更，代表作《春分之后》《片场之外》。">查看档案</button>
+          </div>
+        </article>
+
+        <article class="ys-author">
+          <div class="ys-avatar ys-avatar--5" aria-hidden="true">阿</div>
+          <div>
+            <h3 class="ys-author-name">阿岚的片单 <span class="ys-author-field">片单编辑</span></h3>
+            <div class="ys-author-nums"><span>作品 210</span><span>粉丝 29.7 万</span></div>
+            <p class="ys-author-bio">以短平快的片单推荐见长，但不做无差别堆砌，每份片单都有明确的使用场景与观看顺序。擅长把「值不值得看」拆成时间成本、情绪成本与信息密度三个维度，是站内转发率最高的编辑型作者。</p>
+            <button class="ys-btn ys-btn--sm ys-btn--ghost ys-author-more" type="button" data-ys-author="阿岚的片单" data-ys-author-info="片单编辑作者，日更。擅长场景化推荐，代表作《两小时判断一部片》《周末三小时片单》。">查看档案</button>
+          </div>
+        </article>
+
+        <article class="ys-author">
+          <div class="ys-avatar ys-avatar--6" aria-hidden="true">拆</div>
+          <div>
+            <h3 class="ys-author-name">拆片研究所 <span class="ys-author-field">深度测评</span></h3>
+            <div class="ys-author-nums"><span>作品 97</span><span>粉丝 45.1 万</span></div>
+            <p class="ys-author-bio">用实验对比的方式讲影视工业细节，从布光、降雨到调色，每期至少做一次可复现的对照实验。内容偏硬但结构清楚，常被影视专业学生当作课外资料，也是平台「深度测评」标签下的标杆作者。</p>
+            <button class="ys-btn ys-btn--sm ys-btn--ghost ys-author-more" type="button" data-ys-author="拆片研究所" data-ys-author-info="深度测评创作者，双周一更。代表作《三种小成本布光》《电影里的雨》。">查看档案</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANALYSIS (longform) -->
+  <section class="ys-section" id="ys-analysis" aria-labelledby="ys-analysis-title">
+    <div class="ys-wrap">
+      <div class="ys-section-head">
+        <div>
+          <span class="ys-eyebrow">Brand Insight</span>
+          <h2 class="ys-h2" id="ys-analysis-title">品牌深度解析：<em>影视大全在线免费观看</em>为什么值得长期使用</h2>
+          <p class="ys-section-desc">从平台定位、内容治理到社区运营，这一节完整说明我们如何定义一个「可被信任的影视门户」。</p>
+        </div>
+      </div>
+
+      <div class="ys-longform">
+        <h3>一、从聚合入口到内容生态：平台的定位与取舍</h3>
+        <p>影视大全在线免费观看最初解决的问题很朴素：观众在多个频道之间来回切换，浪费在「找」上的时间往往超过「看」的时间。平台以聚合为起点，但没有停在聚合。我们逐渐意识到，单纯堆叠条目会让选择成本更高，于是把「编辑判断」放回产品中心：每一部进入首页的作品，都要回答三个问题——它是否值得这段时间、它适合什么场景、它能提供什么超出剧情本身的信息。这样一来，影视大全在线免费观看不再只是一个入口，而是一个有观点的内容生态。</p>
+        <p>作为深耕影视垂直领域的品牌官网，我们把内容分成四条主线：剧集、纪录影像、创作者访谈与实用拆解。四条线各有更新节奏，但共享同一套质量门槛：画质必须达到高清标准，字幕必须人工校对，简介必须由编辑撰写而非自动抓取。我们不追求条目数量的膨胀，而是让每一条内容都能被清楚说明——这是「用户首选」四个字最实际的含义。</p>
+
+        <h3>二、内容治理：正版、高清与可追溯的责任链</h3>
+        <p>影视内容的品质感来自细节。影视大全在线免费观看对所有上线内容执行三道校验：素材来源核验、画质与音轨检测、字幕与时间轴校对。凡标注「正版」的条目，都能追溯到授权信息与上线批次；凡标注「高清」的条目，都经过码率与分辨率复核。这套流程看起来笨重，但它让平台在面对「这部片到底清不清楚、是不是完整版」这类高频疑问时，能给出确定回答。</p>
+        <p>内容治理的另一面是责任。我们建立了创作者信用与内容复核并行的机制：新作者进入平台需要通过作品审核，成熟作者的作品仍会抽查；对争议内容设置冷静期与申诉通道；对搬运、拼接、误导性标题执行明确的处置规则。平台持续运营的意义不在于从不犯错，而在于每一次修正都可被看见、可被追溯。这也是我们坚持官方发布与更新日志公开的原因。</p>
+
+        <h3>三、社区活力：让观众从「看完就走」变成「留下来说」</h3>
+        <p>一个影视门户如果只有播放，没有讨论，会很快变得安静。影视大全在线免费观看把评论区当作内容的一部分来设计：短评鼓励具体，反对空泛；长评可以有分歧，但需要给出理由；每月的专题投票决定下一期企划的方向，创作者能看到真实反馈后再决定拍什么。我们发现，当观众知道自己的意见会影响内容编排，回访率会明显提高，社区也会从「打卡」转向真正的兴趣同好。</p>
+        <p>为了让社区保持健康，平台设置了清晰的参与规则：不做人身攻击，不剧透未上线内容的关键情节，不发布未授权资源。规则之外，我们更愿意用正向机制引导——优质评论会被编辑推荐，创作者访谈会引用观众提问，年度投票会公开统计口径。内容生态的活力不是靠运营活动堆出来的，而是靠「说了有用」这四个字慢慢长出来的。这也是我们理解的品牌影响力：不是被多少人看到，而是被多少人愿意认真回应。</p>
+
+        <h3>四、面向未来：技术、创作者与长期主义</h3>
+        <p>技术层面，平台持续优化检索与推荐的可解释性：搜索结果会标注匹配原因，推荐位会说明入选逻辑，避免让观众觉得「被算法推着走」。创作者工具方面，我们提供脚本灵感、标题建议与剪辑思路等辅助能力，但始终坚持一个原则——工具只负责降低门槛，不代替创作判断。影视大全在线免费观看希望成为创作者愿意长期停留的地方，而不是一次性的流量池。</p>
+        <p>长期主义听起来抽象，落到日常就是一些具体的小事：按时更新、如实标注、认真回复、公开修正。我们相信，一个影视门户真正的竞争力，是让观众在多年之后仍然记得「在这里看到过一部好片，并且看懂了它」。影视大全在线免费观看会继续沿着这个方向做下去：把品质放在速度之前，把真实放在热闹之前，把陪伴放在增长之前。</p>
+        <ul class="ys-longform-list">
+          <li><strong>品质承诺：</strong>正版授权核验、高清画质复核、人工字幕校对三道流程并行。</li>
+          <li><strong>创作者承诺：</strong>透明的审核标准、可申诉的处置机制、稳定的分成与曝光规则。</li>
+          <li><strong>观众承诺：</strong>可解释的推荐、可参与的企划、可追溯的更新日志。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- RANK + UPDATES -->
+  <section class="ys-section" id="ys-rank" aria-labelledby="ys-rank-title">
+    <div class="ys-wrap">
+      <div class="ys-section-head">
+        <div>
+          <span class="ys-eyebrow">Ranking &amp; News</span>
+          <h2 class="ys-h2" id="ys-rank-title">数据榜单与<em>企业动态</em></h2>
+          <p class="ys-section-desc">热度榜按近七天播放、完播与互动综合计算；企业动态记录平台在产品、内容与合作上的公开变化。</p>
+        </div>
+      </div>
+
+      <div class="ys-split">
+        <div>
+          <h3 style="font-size:16px;margin-bottom:12px;color:#fff;">本周热度榜</h3>
+          <div class="ys-rank">
+            <div class="ys-rank-row"><span class="ys-rank-no">1</span><div><div class="ys-rank-title">城市夜行者：凌晨四点仍在醒着的十二条街</div><div class="ys-rank-sub">沈岸影像 · 纪录影像</div></div><span class="ys-rank-val">热度 98.7</span></div>
+            <div class="ys-rank-row"><span class="ys-rank-no">2</span><div><div class="ys-rank-title">一个镜头讲完一件事：叙事型剪辑的五个判断</div><div class="ys-rank-sub">像素工坊 · 教程干货</div></div><span class="ys-rank-val">热度 95.2</span></div>
+            <div class="ys-rank-row"><span class="ys-rank-no">3</span><div><div class="ys-rank-title">春分之后 第六集：一场没有台词的和解</div><div class="ys-rank-sub">林间剧场 · 剧集</div></div><span class="ys-rank-val">热度 93.6</span></div>
+            <div class="ys-rank-row"><span class="ys-rank-no">4</span><div><div class="ys-rank-title">做了十二年配角，他怎么理解「被看见」</div><div class="ys-rank-sub">陆见访谈 · 人物访谈</div></div><span class="ys-rank-val">热度 91.4</span></div>
+            <div class="ys-rank-row"><span class="ys-rank-no">5</span><div><div class="ys-rank-title">三种小成本布光，能撑起多少种场景</div><div class="ys-rank-sub">拆片研究所 · 深度测评</div></div><span class="ys-rank-val">热度 88.9</span></div>
+            <div class="ys-rank-row"><span class="ys-rank-no">6</span><div><div class="ys-rank-title">十二分钟，一条街：老市场的早市时间表</div><div class="ys-rank-sub">沈岸影像 · 在地文化</div></div><span class="ys-rank-val">热度 86.3</span></div>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-size:16px;margin-bottom:12px;color:#fff;">企业动态与更新日志</h3>
+          <div class="ys-updates" id="ys-updates">
+            <div class="ys-update">
+              <div class="ys-update-date">2026-11-20</div>
+              <div><div class="ys-update-title">「城市夜行者」纪录单元第三期上线</div><div class="ys-update-desc">新增 12 部高清正版内容，含 3 部平台自制短片，同步开放观众投票。</div></div>
+            </div>
+            <div class="ys-update">
+              <div class="ys-update-date">2026-11-16</div>
+              <div><div class="ys-update-title">搜索体验升级：结果页新增匹配原因说明</div><div class="ys-update-desc">搜索将显示命中的标题、标签或作者字段，减少无效点击。</div></div>
+            </div>
+            <div class="ys-update">
+              <div class="ys-update-date">2026-11-11</div>
+              <div><div class="ys-update-title">创作者投稿通道开放年度报名</div><div class="ys-update-desc">面向纪录片与叙事短片方向，审核周期缩短至七个工作日。</div></div>
+            </div>
+            <div class="ys-update">
+              <div class="ys-update-date">2026-11-05</div>
+              <div><div class="ys-update-title">字幕校对流程更新</div><div class="ys-update-desc">新增双人复核环节，重点覆盖纪录与访谈类目。</div></div>
+            </div>
+            <div class="ys-update">
+              <div class="ys-update-date">2026-10-28</div>
+              <div><div class="ys-update-title">内容合作：与三家独立影像机构达成正版授权</div><div class="ys-update-desc">扩充纪录与实验影像库，首批内容已上线。</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMENTS -->
+  <section class="ys-section" id="ys-comments" aria-labelledby="ys-comments-title">
+    <div class="ys-wrap">
+      <div class="ys-section-head">
+        <div>
+          <span class="ys-eyebrow">Community Voice</span>
+          <h2 class="ys-h2" id="ys-comments-title">用户口碑：关于<em>影视大全</em>的八条真实短评</h2>
+          <p class="ys-section-desc">以下短评来自不同使用场景的观众，长度与关注点各不相同，我们保留了原始表达，仅做必要排版。</p>
+        </div>
+      </div>
+
+      <div class="ys-comment-grid">
+        <article class="ys-comment">
+          <div class="ys-comment-top"><span class="ys-c-avatar ys-avatar--1" aria-hidden="true">周</span><div><div class="ys-c-name">周野</div><div class="ys-c-time">11 月 20 日</div></div></div>
+          <p class="ys-c-text">看完《城市夜行者》去找了同系列的另外两期，编排顺序很清楚，不用自己猜先看哪集。这点比很多只做合集的地方舒服。</p>
+          <div class="ys-c-stars">★★★★★</div>
+        </article>
+
+        <article class="ys-comment">
+          <div class="ys-comment-top"><span class="ys-c-avatar ys-avatar--2" aria-hidden="true">陈</span><div><div class="ys-c-name">陈一诺</div><div class="ys-c-time">11 月 19 日</div></div></div>
+          <p class="ys-c-text">我是做剪辑的，像素工坊的教程基本每期都存。最大优点是不藏参数，工程文件能直接打开对照，学起来省很多试错时间。</p>
+          <div class="ys-c-stars">★★★★★</div>
+        </article>
+
+        <article class="ys-comment">
+          <div class="ys-comment-top"><span class="ys-c-avatar ys-avatar--3" aria-hidden="true">林</span><div><div class="ys-c-name">林小满</div><div class="ys-c-time">11 月 18 日</div></div></div>
+          <p class="ys-c-text">我妈也会用，主要是搜索和片单做得直白，不用在好几个页面之间跳。就是希望以后能加个家庭一起看的收藏分组。</p>
+          <div class="ys-c-stars">★★★★☆</div>
+        </article>
+
+        <article class="ys-comment">
+          <div class="ys-comment-top"><span class="ys-c-avatar ys-avatar--4" aria-hidden="true">赵</span><div><div class="ys-c-name">赵行舟</div><div class="ys-c-time">11 月 17 日</div></div></div>
+          <p class="ys-c-text">访谈类内容是我最常回来的部分，问题问得不着急，很多人能讲到一半才真正开始说。这种耐心在短视频时代挺难得。</p>
+          <div class="ys-c-stars">★★★★★</div>
+        </article>
+
+        <article class="ys-comment">
+          <div class="ys-comment-top"><span class="ys-c-avatar ys-avatar--5" aria-hidden="true">苏</span><div><div class="ys-c-name">苏晚</div><div class="ys-c-time">11 月 16 日</div></div></div>
+          <p class="ys-c-text">画质是我最在意的，这里标的「高清」基本没踩雷，字幕时间轴也齐。偶尔有个别片源音轨有点小，反馈后第二天就修了。</p>
+          <div class="ys-c-stars">★★★★☆</div>
+        </article>
+
+        <article class="ys-comment">
+          <div class="ys-comment-top"><span class="ys-c-avatar ys-avatar--6" aria-hidden="true">何</span><div><div class="ys-c-name">何知远</div><div class="ys-c-time">11 月 15 日</div></div></div>
+          <p class="ys-c-text">专题投票我参与过两次，第二次的选题真的做出来了，虽然跟我想的不完全一样，但至少说明票不是白投的。</p>
+          <div class="ys-c-stars">★★★★★</div>
+        </article>
+
+        <article class="ys-comment">
+          <div class="ys-comment-top"><span class="ys-c-avatar ys-avatar--2" aria-hidden="true">谢</span><div><div class="ys-c-name">谢遥</div><div class="ys-c-time">11 月 14 日</div></div></div>
+          <p class="ys-c-text">给新创作者的建议：先看「拆片实验室」，再决定要不要投。审核标准写得算清楚，被退回也给了具体原因，不是一句不通过。</p>
+          <div class="ys-c-stars">★★★★☆</div>
+        </article>
+
+        <article class="ys-comment">
+          <div class="ys-comment-top"><span class="ys-c-avatar ys-avatar--1" aria-hidden="true">郝</span><div><div class="ys-c-name">郝南</div><div class="ys-c-time">11 月 13 日</div></div></div>
+          <p class="ys-c-text">站在观众角度，最打动我的是评论区能正常讨论，不太吵。偶尔有分歧也能说下去，这在现在的影视社区里挺少见。</p>
+          <div class="ys-c-stars">★★★★★</div>
+        </article>
+      </div>
+
+      <blockquote class="ys-quote">
+        “我在这里看到的第一部片是《春分之后》，后来把这个平台推荐给了三个朋友。它不追热点，但每次打开都能找到一部能安静看完的东西。”
+        <footer>—— 观众 周野，来自 2026 年度观众问卷</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- PARTNERS + FAQ -->
+  <section class="ys-section" id="ys-partners" aria-labelledby="ys-partners-title">
+    <div class="ys-wrap">
+      <div class="ys-section-head">
+        <div>
+          <span class="ys-eyebrow">Partners &amp; FAQ</span>
+          <h2 class="ys-h2" id="ys-partners-title">合作品牌与常见问题</h2>
+          <p class="ys-section-desc">平台与内容机构、影像设备品牌及创作者社区保持长期合作，同时把高频疑问集中公开，减少重复沟通。</p>
+        </div>
+      </div>
+
+      <div class="ys-split">
+        <div>
+          <h3 style="font-size:16px;margin-bottom:12px;color:#fff;">合作品牌与伙伴</h3>
+          <div class="ys-partner-grid">
+            <div class="ys-partner"><div class="ys-partner-name">光年影像</div><div class="ys-partner-type">内容授权</div></div>
+            <div class="ys-partner"><div class="ys-partner-name">帧述器材</div><div class="ys-partner-type">设备支持</div></div>
+            <div class="ys-partner"><div class="ys-partner-name">南方纪录片社</div><div class="ys-partner-type">联合出品</div></div>
+            <div class="ys-partner"><div class="ys-partner-name">夜航创作者联盟</div><div class="ys-partner-type">社区共建</div></div>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-size:16px;margin-bottom:12px;color:#fff;">常见问题</h3>
+          <div class="ys-faq" id="ys-faq">
+            <details>
+              <summary>平台内容是否需要注册才能观看？</summary>
+              <div class="ys-faq-body">浏览、搜索与查看简介不需要注册；收藏、评论、参与投票与投稿需要登录账号。注册流程仅需邮箱或手机号验证，不强制绑定社交账号。</div>
+            </details>
+            <details>
+              <summary>「高清」与「正版」标注分别代表什么？</summary>
+              <div class="ys-faq-body">「正版」表示该条目已通过素材来源核验并具备授权信息；「高清」表示画质经过码率与分辨率复核。两项标注独立校验，互不替代，均可在详情页查看上线批次。</div>
+            </details>
+            <details>
+              <summary>创作者如何投稿？审核要多久？</summary>
+              <div class="ys-faq-body">点击页头「投稿」按钮填写作品信息与素材说明即可提交。常规审核周期为七到十个工作日；纪录片与叙事短片方向的年度报名通道可将周期缩短至七个工作日。</div>
+            </details>
+            <details>
+              <summary>专题企划的投票结果会公开吗？</summary>
+              <div class="ys-faq-body">会。每期投票结束后，我们会在企业动态中公布参与人数与统计口径，并说明下一期选题如何确定。票数不设暗箱加权，异常刷票会被剔除。</div>
+            </details>
+            <details>
+              <summary>发现内容有问题怎么反馈？</summary>
+              <div class="ys-faq-body">可在对应内容页使用「反馈」入口提交问题类型与截图，我们会按内容治理流程处理。涉及画质与字幕的问题通常在四十八小时内复核完成。</div>
+            </details>
+            <details>
+              <summary>是否支持创作者收益分成？</summary>
+              <div class="ys-faq-body">支持。平台对签约与入驻创作者采用统一的曝光与分成规则，细则在创作者中心公开。分成以内容完播与有效互动为依据，不使用诱导性播放计入。</div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ys-footer">
+  <div class="ys-wrap">
+    <div class="ys-footer-top">
+      <div>
+        <div class="ys-brand" style="margin-bottom:6px;">
+          <span class="ys-brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M8 5.5 19 12 8 18.5V5.5Z" fill="#fff"/></svg>
+          </span>
+          <span>
+            <span class="ys-brand-name">影视大全</span>
+            <span class="ys-brand-sub">SCREENVERSE</span>
+          </span>
+        </div>
+        <p class="ys-footer-brand-desc">影视大全在线免费观看官方网站 · 深耕影视垂直领域的内容生态平台，坚持正版与高清，服务观众与创作者。持续运营中，内容每周更新。</p>
+      </div>
+      <div>
+        <h4>内容频道</h4>
+        <ul>
+          <li><a href="#ys-videos">热门视频流</a></li>
+          <li><a href="#ys-topics">专题企划</a></li>
+          <li><a href="#ys-focus">焦点推荐</a></li>
+          <li><a href="#ys-rank">热度榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>平台与社区</h4>
+        <ul>
+          <li><a href="#ys-authors">创作者矩阵</a></li>
+          <li><a href="#ys-analysis">品牌深度解析</a></li>
+          <li><a href="#ys-comments">用户口碑</a></li>
+          <li><a href="#ys-updates">企业动态</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>帮助与联系</h4>
+        <ul>
+          <li><a href="#ys-faq">常见问题</a></li>
+          <li><a href="#ys-partners">合作品牌</a></li>
+          <li><a href="#ys-faq">投稿说明</a></li>
+          <li><a href="#ys-top">回到顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ys-footer-bottom">
+      <span>© 2026 影视大全在线免费观看 · 官方网站 · 版权所有</span>
+      <span>持续运营 · 正版高清 · 用户至上 · 内容生态共建</span>
+      <span>备案号：影网备 2026-0117 号</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ys-toast" id="ys-toast" role="status" aria-live="polite"></div>
+
+<div class="ys-modal" id="ys-modal" role="dialog" aria-modal="true" aria-labelledby="ys-modal-title">
+  <div class="ys-modal-card">
+    <h3 id="ys-modal-title">投稿入口</h3>
+    <p id="ys-modal-desc">填写作品基本信息后提交，审核周期通常为七到十个工作日。请确保素材来源清晰、字幕文件完整。</p>
+    <div id="ys-modal-dynamic"></div>
+    <div class="ys-modal-close">
+      <button class="ys-btn ys-btn--ghost" type="button" data-ys-modal-close>取消</button>
+      <button class="ys-btn ys-btn--primary" type="button" id="ys-modal-submit">提交</button>
+    </div>
+  </div>
+</div>
+
+<button class="ys-top-btn" id="ys-top-btn" type="button" aria-label="回到顶部">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 14 6-6 6 6"/></svg>
+</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- Toast ---------- */
+  var toastEl = document.getElementById('ys-toast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('ys-is-visible');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toastEl.classList.remove('ys-is-visible');
+    }, 2400);
+  }
+
+  /* ---------- Mobile nav ---------- */
+  var burger = document.getElementById('ys-burger');
+  var mobileNav = document.getElementById('ys-mobile-nav');
+  if(burger && mobileNav){
+    burger.addEventListener('click', function(){
+      var open = mobileNav.classList.toggle('ys-is-open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.setAttribute('aria-label', open ? '收起导航菜单' : '展开导航菜单');
+    });
+    mobileNav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        mobileNav.classList.remove('ys-is-open');
+        burger.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  /* ---------- Search feedback ---------- */
+  var searchInput = document.getElementById('ys-search-input');
+  var searchHint = document.getElementById('ys-search-hint');
+  var searchPool = [
+    '城市夜行者 纪录影像',
+    '春分之后 剧集',
+    '一个镜头讲完一件事 剪辑教程',
+    '做了十二年配角 人物访谈',
+    '三种小成本布光 深度测评',
+    '十二分钟，一条街 在地文化',
+    '片场之外 创作幕后',
+    '电影里的雨 知识科普'
+  ];
+  function escapeHTML(s){
+    return String(s).replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+  if(searchInput && searchHint){
+    searchInput.addEventListener('input', function(){
+      var q = searchInput.value.trim().toLowerCase();
+      if(!q){
+        searchHint.classList.remove('ys-is-open');
+        searchHint.innerHTML = '';
+        return;
+      }
+      var hits = searchPool.filter(function(item){
+        return item.toLowerCase().indexOf(q) !== -1;
+      });
+      if(hits.length){
+        searchHint.innerHTML = '匹配到 <b>' + hits.length + '</b> 条内容：' + hits.slice(0,3).map(escapeHTML).join(' · ');
+      }else{
+        searchHint.innerHTML = '暂无完全匹配，试试「纪录」「剪辑」「访谈」等关键词。';
+      }
+      searchHint.classList.add('ys-is-open');
+    });
+    searchInput.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){
+        e.preventDefault();
+        var q = searchInput.value.trim();
+        if(q){
+          toast('已按「' + q + '」检索站内内容');
+          searchHint.innerHTML = '正在展示与 <b>' + escapeHTML(q) + '</b> 相关的内容…';
+          searchHint.classList.add('ys-is-open');
+        }
+      }
+    });
+    document.addEventListener('click', function(e){
+      if(!e.target.closest('.ys-search')){
+        searchHint.classList.remove('ys-is-open');
+      }
+    });
+  }
+
+  /* ---------- Like / Save ---------- */
+  function parseCount(txt){
+    return parseInt(String(txt).replace(/[^\d]/g,''), 10) || 0;
+  }
+  function formatCount(n){
+    return n.toLocaleString('en-US');
+  }
+  document.querySelectorAll('[data-ys-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var countEl = btn.querySelector('[data-ys-like-count]');
+      var base = countEl ? parseCount(countEl.textContent) : 0;
+      var liked = btn.classList.toggle('ys-is-liked');
+      btn.setAttribute('aria-pressed', liked ? 'true' : 'false');
+      if(countEl){
+        countEl.textContent = formatCount(base + (liked ? 1 : -1));
+      }
+      toast(liked ? '已点赞，感谢你的推荐' : '已取消点赞');
+    });
+  });
+  document.querySelectorAll('[data-ys-save]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var saved = btn.classList.toggle('ys-is-saved');
+      btn.setAttribute('aria-pressed', saved ? 'true' : 'false');
+      btn.textContent = btn.classList.contains('ys-btn--sm') ? (saved ? '已收藏' : '收藏') : (saved ? '已收藏' : '收藏');
+      toast(saved ? '已加入收藏夹' : '已从收藏夹移除');
+    });
+  });
+
+  /* ---------- Copy link ---------- */
+  document.querySelectorAll('[data-ys-copy]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var title = btn.getAttribute('data-copy-title') || '影视大全内容';
+      var text = '影视大全在线免费观看 · ' + title;
+      function fallback(){
+        try{
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+          toast('链接已复制，可分享给朋友');
+        }catch(err){
+          toast('复制失败，请手动选择内容');
+        }
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(function(){
+          toast('链接已复制，可分享给朋友');
+        }).catch(fallback);
+      }else{
+        fallback();
+      }
+    });
+  });
+
+  /* ---------- Vote ---------- */
+  document.querySelectorAll('[data-ys-vote]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var name = btn.getAttribute('data-vote-name') || '该专题';
+      if(btn.classList.contains('ys-is-voted')){
+        toast('你已经为「' + name + '」投过票了');
+        return;
+      }
+      btn.classList.add('ys-is-voted');
+      btn.textContent = '已投票 · 感谢参与';
+      btn.disabled = true;
+      toast('投票成功：「' + name + '」已记录');
+    });
+  });
+
+  /* ---------- Modal ---------- */
+  var modal = document.getElementById('ys-modal');
+  var modalTitle = document.getElementById('ys-modal-title');
+  var modalDesc = document.getElementById('ys-modal-desc');
+  var modalDynamic = document.getElementById('ys-modal-dynamic');
+  var modalSubmit = document.getElementById('ys-modal-submit');
+  var lastFocus = null;
+
+  function openModal(title, desc, html){
+    lastFocus = document.activeElement;
+    modalTitle.textContent = title;
+    modalDesc.textContent = desc;
+    modalDynamic.innerHTML = html || '';
+    modal.classList.add('ys-is-open');
+    var firstField = modalDynamic.querySelector('input, textarea, button');
+    if(firstField){ firstField.focus(); }
+  }
+  function closeModal(){
+    modal.classList.remove('ys-is-open');
+    if(lastFocus && lastFocus.focus){ lastFocus.focus(); }
+  }
+  if(modal){
+    modal.addEventListener('click', function(e){
+      if(e.target === modal){ closeModal(); }
+    });
+    document.querySelectorAll('[data-ys-modal-close]').forEach(function(b){
+      b.addEventListener('click', closeModal);
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape' && modal.classList.contains('ys-is-open')){ closeModal(); }
+    });
+  }
+
+  var openSubmit = document.getElementById('ys-open-submit');
+  if(openSubmit){
+    openSubmit.addEventListener('click', function(){
+      openModal('投稿入口', '填写作品基本信息后提交，审核周期通常为七到十个工作日。请确保素材来源清晰、字幕文件完整。',
+        '<div class="ys-modal-field"><label for="ys-m-title">作品标题</label><input id="ys-m-title" type="text" placeholder="例如：十二分钟，一条街"></div>' +
+        '<div class="ys-modal-field"><label for="ys-m-author">创作者昵称</label><input id="ys-m-author" type="text" placeholder="你的常用署名"></div>' +
+        '<div class="ys-modal-field"><label for="ys-m-note">作品说明</label><textarea id="ys-m-note" rows="3" placeholder="简述内容方向、时长与素材来源"></textarea></div>');
+    });
+  }
+  if(modalSubmit){
+    modalSubmit.addEventListener('click', function(){
+      closeModal();
+      toast('投稿信息已记录，编辑会在七个工作日内回复');
+    });
+  }
+
+  /* ---------- Author modal ---------- */
+  document.querySelectorAll('[data-ys-author]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var name = btn.getAttribute('data-ys-author');
+      var info = btn.getAttribute('data-ys-author-info');
+      openModal(name + ' · 创作者档案', info, '');
+      var closeRow = modalDynamic; // no-op placeholder
+      modalDesc.textContent = info;
+    });
+  });
+
+  /* ---------- Back to top ---------- */
+  var topBtn = document.getElementById('ys-top-btn');
+  function onScroll(){
+    if(window.pageYOffset > 520){
+      topBtn.classList.add('ys-is-visible');
+    }else{
+      topBtn.classList.remove('ys-is-visible');
+    }
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* ---------- Smooth anchor offset handled by CSS scroll-margin ---------- */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if(id.length > 1){
+        var target = document.querySelector(id);
+        if(target){
+          e.preventDefault();
+          target.scrollIntoView({behavior:'smooth', block:'start'});
+          history.replaceState(null, '', id);
+        }
+      }
+    });
+  });
+})();
+</script>
+</body>
+              </html>
